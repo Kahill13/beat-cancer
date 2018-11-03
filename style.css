@@ -1,3 +1,5 @@
+*{
+box-sizing: border-border-box;}
 body {
   font-family: 'Cantarell', sans-serif;
   background: linear-gradient(90deg, black, indigo);
@@ -31,3 +33,16 @@ margin:0 20px 0 40px
   background-color:white;
   color:black;
 }
+main > aside, main > section {
+  display: inline-block;
+}
+main > aside {
+  width:20%;
+  background-color:white;
+}
+main > section {
+  padding:10px;
+  width: 58%;
+  background-color:blue;
+}
+h3 {color:black;}

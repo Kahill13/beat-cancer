@@ -4,6 +4,30 @@ body {
   color:Cyan;
 }
 h1{
+  text-align: center;
   font-size: 60px;
 font-family: 'Fredoka One', cursive;
+margin: 0;
+line-height: 1;
+}
+.main-nav{
+  background-color:black;
+  list-style: none;
+
+}
+.main-nav li {
+display: inline-block;
+font-size: 24px;
+margin:0 20px 0 40px
+}
+.main-nav a {
+  color:white;
+  text-decoration:none;
+  padding: 10px;
+  display:block;
+  background-color: gray;
+}
+.main-nav a:hover {
+  background-color:white;
+  color:black;
 }

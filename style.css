@@ -1,5 +1,5 @@
 *{
-box-sizing: border-border-box;}
+box-sizing: border-box;}
 body {
   font-family: 'Cantarell', sans-serif;
   background: linear-gradient(90deg, black, indigo);
@@ -18,7 +18,7 @@ line-height: 1;
 
 }
 .main-nav li {
-display: inline-block;
+display:inline-block;
 font-size: 24px;
 margin:0 20px 0 40px
 }
@@ -34,7 +34,7 @@ margin:0 20px 0 40px
   color:black;
 }
 main > aside, main > section {
-  display: inline-block;
+  float:left;
 }
 main > aside {
   width:20%;
@@ -46,3 +46,23 @@ main > section {
   background-color:blue;
 }
 h3 {color:black;}
+h4 {font-size:30px;}
+article img {
+  float: right;
+  width:500px;
+  margin-left:20px;
+}
+article a, article a:visited{
+  color:yellow;
+}
+article a:hover {
+  color:lawngreen;
+}
+.products {
+  width: 48%;
+  float:left;
+  margin-right:10px;
+}
+.products img {
+  width: 100%;
+}
